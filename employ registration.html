@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	</style>
+	<title>Employee Registration</title>
+</head>
+<body>
+	<h1>Employee Registration</h1>
+		<form>
+			<fieldset>
+					<legend>Personal Information</legend>
+					<table>
+					<tr>
+						<td>Employee Id</td>
+						<td>:</td>
+						<td><input type="text" placeholder="enter your id"></td>
+					</tr>
+					<tr>
+						<td>Employee name</td>
+						<td>:</td>
+						<td><input type="text" placeholder="enter your name"></td>
+					</tr>
+					<tr>
+						<td>E-Mail</td>
+						<td>:</td>
+						<td><input type="text" placeholder="enter your e-mail id"></td>
+					</tr>
+					<tr>
+						<td>Contact no.</td>
+						<td>:</td>
+						<td><input type="text" pattern="[0-9]{10}" maxlength="{10}"
+							placeholder="enter your Contact no."></td>
+					</tr>
+					<tr>
+						<td>Maritial status</td>
+						<td>:</td>
+						<td>
+							<select>
+								<option>Married</option>
+								<option>UnMarried</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+		<form>
+			<fieldset>
+				<table>
+					<legend>Educational Qualification</legend>
+					<tr>
+						<td>Education</td>
+						<td>:</td>
+						<td><input type="text" placeholder="enter your Education Details"></td>
+					</tr>
+					<tr>
+						<td>Experience</td>
+						<td>:</td>
+						<td><input type="text" placeholder="enter your Experience"></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+		<form>
+			<fieldset>
+				<table>
+					<legend>Job Details</legend>
+					<tr>
+						<td>Desiguation</td>
+						<td>:</td>
+						<td><input type="text" placeholder="enter your desiguation"></td>
+					</tr>
+					<tr>
+						<td>Job Location</td>
+						<td>:</td>
+						<td><input type="text" placeholder="enter your job location"></td>
+					</tr>
+					<tr>
+						<td>Salary</td>
+						<td>:</td>
+						<td><input type="text" pattern="[0-9]{6}" placeholder="enter your salary"></td>
+					</tr>
+					</table>
+			</fieldset>
+		</form>
+					<tr>
+						<td><input type="submit" value="submit"></td>
+						<td><input type="reset" name="reset"></td>
+					</tr>
+</body>
+</html>
